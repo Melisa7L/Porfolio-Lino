@@ -30,19 +30,14 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introduccion</p>
+        <h2 className={styles.sectionHeadText}>Sobre mi.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+Soy una persona entusiasta, finalizando mi licenciatura en Sistemas y trabajando en mi proyecto final. Me considero curioso y autodidacta, siempre buscando nuevos desafíos para crecer. Mis intereses se centran en el análisis de datos, Big Data, bases de datos y tengo conocimientos en testing y machine learning. Además, cuento con experiencia en diseño de páginas web. Estoy emocionado por las oportunidades futuras y listo para contribuir a proyectos innovadores.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
