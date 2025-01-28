@@ -40,7 +40,7 @@ export const navLinks = [
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'ContactO',
   },
 ];
 
@@ -124,28 +124,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
+    title: 'CURSO DE MICROSOFT ACCESS',
     company_name: 'Cover Hunt',
     icon: coverhunt,
     iconBg: '#333333',
     date: 'Aug 2021 - Feb 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
+    title: 'CURSO DE INTRODUCCION AL DESARROLLO WEB',
     company_name: 'Microverse',
     icon: microverse,
     iconBg: '#333333',
     date: 'Mar 2022 - May 2022',
   },
   {
-    title: 'Junior Software Engineer',
+    title: 'CURSO DE SECRETARIADO CONTABLE INFORMATICO',
     company_name: 'Kelhel',
     icon: kelhel,
     iconBg: '#333333',
     date: 'May 2022 - Oct 2022',
   },
   {
-    title: 'Full Stack Developer',
+    title: 'CURSO DE BIG DATA',
+    company_name: 'Diversity Cyber Council',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Sep 2022 - Present',
+  },
+  {
+    title: 'CURSO DE ORACLE (PROGRAMA NEXT EDUCACION)-BACKEND',
+    company_name: 'Cover Hunt',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Aug 2021 - Feb 2022',
+  },
+  {
+    title: 'CURSO FORMACION LIDER DE TESTING',
+    company_name: 'Microverse',
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'Mar 2022 - May 2022',
+  },
+  {
+    title: 'CURSO DE INGLES EN CUI-UBA',
+    company_name: 'Kelhel',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: 'May 2022 - Oct 2022',
+  },
+  {
+    title: 'CURSO UDEMY:"REACT-LA GUIA COMPLETA:HOOKS CONTEXT REDUX MERN+15 APPS"',
     company_name: 'Diversity Cyber Council',
     icon: dcc,
     iconBg: '#333333',

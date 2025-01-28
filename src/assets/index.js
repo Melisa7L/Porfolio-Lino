@@ -8,10 +8,10 @@ import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
 
-import backend from './icons/backend.png';
-import ux from './icons/ux.png';
-import frontend from './icons/frontend.png';
-import prototyping from './icons/prototyping.png';
+import backend from './icons/big data.png';
+import ux from './icons/diseño.png';
+import frontend from './icons/machine.png';
+import prototyping from './icons/testing.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
