@@ -32,15 +32,15 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'Sobre mí',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Proyectos',
   },
   {
     id: 'contact',
-    title: 'ContactO',
+    title: 'Contacto',
   },
 ];
 
@@ -125,59 +125,59 @@ const technologies = [
 const experiences = [
   {
     title: 'CURSO DE MICROSOFT ACCESS',
-    company_name: 'Cover Hunt',
+    company_name: 'Punto Digital',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Enero 2018- Marzo 2018',
   },
   {
     title: 'CURSO DE INTRODUCCION AL DESARROLLO WEB',
-    company_name: 'Microverse',
+    company_name: 'Universidad de los Andes Colombia',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: '30 de octubre 2021',
   },
   {
     title: 'CURSO DE SECRETARIADO CONTABLE INFORMATICO',
-    company_name: 'Kelhel',
+    company_name: 'Punto Digital',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Agosto 2021- Diciembre 2021',
   },
   {
     title: 'CURSO DE BIG DATA',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'Programa Codo a Codo',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Julio 2022',
   },
   {
     title: 'CURSO DE ORACLE (PROGRAMA NEXT EDUCACION)-BACKEND',
-    company_name: 'Cover Hunt',
+    company_name: 'Alura Latam',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: '02/04/2023 al 23/08/2023',
   },
   {
     title: 'CURSO FORMACION LIDER DE TESTING',
-    company_name: 'Microverse',
+    company_name: 'Universidad Tecnologica Nacional',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Agosto de 2023',
   },
   {
     title: 'CURSO DE INGLES EN CUI-UBA',
-    company_name: 'Kelhel',
+    company_name: 'Centro Universitario de Idiomas',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: '2023',
   },
   {
     title: 'CURSO UDEMY:"REACT-LA GUIA COMPLETA:HOOKS CONTEXT REDUX MERN+15 APPS"',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'Udemy',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: '2024',
   },
 ];
 

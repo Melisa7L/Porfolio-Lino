@@ -40,8 +40,7 @@ const Hero = () => {
               Fatima Melisa Lino{' '}
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Estudiante avanzada. <br className="sm:block hidden" />
-              Licenciatura en Sistemas
+              Lic. en Sistemas. <br className="sm:block hidden" />
             </p>
           </div>
           <div
