@@ -1,5 +1,5 @@
 import bwmap from './backgrounds/bw-map.jpeg';
-import nairobi from './backgrounds/nairobi.png';
+import azul from './backgrounds/azul.jpg';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
@@ -56,7 +56,7 @@ import django from './tech/django2.png';
 
 export {
   bwmap,
-  nairobi,
+  azul,
   whiteabstract,
   python,
   worldmap,
