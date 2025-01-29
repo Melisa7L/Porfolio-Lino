@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-Soy una persona entusiasta, finalizando mi licenciatura en Sistemas y trabajando en mi proyecto final. Me considero curioso y autodidacta, siempre buscando nuevos desafíos para crecer. Mis intereses se centran en el análisis de datos, Big Data, bases de datos y tengo conocimientos en testing y machine learning. Además, cuento con experiencia en diseño de páginas web. Estoy emocionado por las oportunidades futuras y listo para contribuir a proyectos innovadores.
+Soy una persona entusiasta, finalizando mi licenciatura en Sistemas y trabajando en mi proyecto final. Me considero curioso y autodidacta, siempre buscando nuevos desafíos para crecer. Mis intereses se centran en el análisis de datos, Big Data, bases de datos y tengo conocimientos en testing y machine learning. Además, cuento con experiencia en diseño de páginas web. Estoy emocionada por las oportunidades futuras y lista para contribuir a proyectos innovadores.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

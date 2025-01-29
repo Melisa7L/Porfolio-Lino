@@ -135,7 +135,7 @@ const Contact = () => {
             onMouseOut={() => {
               document.querySelector('.contact-btn').setAttribute('src', send);
             }}>
-            {loading ? 'Sending' : 'Send'}
+            {loading ? 'Sending' : 'Enviar'}
             <img
               src={send}
               alt="send"
