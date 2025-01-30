@@ -1,4 +1,4 @@
-import bwmap from './backgrounds/bw-map.jpeg';
+import bwmap from './backgrounds/azul.jpg';
 import azul from './backgrounds/azul.jpg';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+/*import shaq from './personal/shaq.png';*/
 
 import backend from './icons/big data.png';
 import ux from './icons/diseño.png';
@@ -62,7 +62,7 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  /*shaq,*/
   django,
   backend,
   ux,
