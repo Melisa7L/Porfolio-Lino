@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="ml-10"> {/* Ajusté el margen izquierdo aquí */}
             {/* Color de texto cambiado a blanco */}
             <h1 className={`${styles.heroHeadText} text-white font-poppins uppercase`}>
-              Fatima Melisa Lino{' '}
+              Fátima Melisa Lino{' '}
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-gray-300`}>
               Lic. en Sistemas. <br className="sm:block hidden" />
@@ -54,17 +54,6 @@ const Hero = () => {
             </div>
           </a>
         </div>
-
-        {/* Imagen de usuario */}
-       /*<div>
-          <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            /*src={shaq}*/
-            alt="Melisa"
-          />
-        </div>*/
       </section>
     </>
   );

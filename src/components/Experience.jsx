@@ -54,14 +54,17 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-        Mi Camino de Aprendizaje
-        </p>
-        <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-        Cursos y Certificaciones.
-        </h2>
-      </motion.div>
+<div>
+  <p className="text-gray-600 sm:pl-16 pl-[2rem] text-xl font-bold">
+    Mi Camino de Aprendizaje
+  </p>
+  <h2 className="text-5xl font-bold sm:pl-16 pl-[2rem] text-jetLight">
+    Cursos y Experiencia Laboral.
+  </h2>
+</div>
+
+
+
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline className="vertical-timeline-custom-line">
