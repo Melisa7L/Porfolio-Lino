@@ -8,13 +8,7 @@ const Hero = () => {
   return (
     <>
       {/* Fondo con nueva imagen y opacidad reducida */}
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
-        <img
-          src="https://source.unsplash.com/random/1920x1080"
-          alt="world map"
-          className="w-full h-full object-cover opacity-50"
-        />
-      </div>
+
 
       <section className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
         bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 overflow-hidden">

@@ -5,14 +5,10 @@ import {
   prototyping,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   git,
-  /*figma,*/
   docker,
   postgresql,
   power,
@@ -22,7 +18,7 @@ import {
   movie,
   nyeusi,
   django,
-  space,
+
   coverhunt,
   dcc,
   kelhel,
@@ -33,8 +29,16 @@ import { FaBrain } from 'react-icons/fa';
 
 export const navLinks = [
   {
+    id: 'inicio',
+    title: 'Inicio',
+  },
+  {
     id: 'about',
     title: 'Sobre mí',
+  },
+  {
+    id: 'tecnologias',
+    title: 'Tecnologias',
   },
   {
     id: 'projects',
@@ -44,10 +48,7 @@ export const navLinks = [
     id: 'aprendizaje',
     title: 'Aprendizaje',
   },
-  {
-    id: 'contact',
-    title: 'Contacto',
-  },
+
 ];
 
 const services = [
