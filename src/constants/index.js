@@ -12,7 +12,7 @@ import {
   tailwind,
   nodejs,
   git,
-  figma,
+  /*figma,*/
   docker,
   postgresql,
   power,

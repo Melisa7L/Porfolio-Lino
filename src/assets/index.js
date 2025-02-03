@@ -3,7 +3,7 @@ import azul from './backgrounds/azul.jpg';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
+/*import logo from './logo/logo-black.png';*/
 import logotext from './logo/logo-text-black.png';
 
 /*import shaq from './personal/shaq.png';*/
@@ -26,7 +26,6 @@ import sendHover from './icons/sendHover.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import python from './tech/python.png';
-import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
@@ -60,9 +59,9 @@ export {
   whiteabstract,
   python,
   worldmap,
-  logo,
+  /*logo,*/
   logotext,
-  /*shaq,*/
+  
   django,
   backend,
   ux,
@@ -80,7 +79,6 @@ export {
   sendHover,
   css,
   docker,
-  figma,
   git,
   power,
   html,
