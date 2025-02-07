@@ -12,8 +12,8 @@ import {
   docker,
   postgresql,
   power,
-  komikult,
-  leaderboard,
+  propinas,
+  guitarras,
   math,
   movie,
   nyeusi,
@@ -202,8 +202,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Calculadora de Propinas',
+    description: 'Es una calculadora interactiva en donde se puede elegir el porcentaje de propina a dejarle al mozo.',
     tags: [
       {
         name: 'react',
@@ -218,15 +218,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: propinas,
     repo: 'https://github.com/shaqdeff/KomiKult',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Sitio Guitarras',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'En este sitio, encontrarás una amplia variedad de guitarras para todos los gustos y necesidades.Se puede visualizar el carrito con las compras',
     tags: [
       {
         name: 'react',
@@ -241,14 +241,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
+    image: guitarras,
     repo: 'https://github.com/shaqdeff/Leaderboard',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Planificador de Gastos',
+    description: 'Su funcion es visualizar de acuero al gasto lo que se tiene de presupuesto,disponible y lo gastado',
     tags: [
       {
         name: 'nextjs',
@@ -269,8 +269,8 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: 'A single-page application that allows users to search for any movie or show\'s ratings and its details.',
+    name: 'Citas en Veterinaria',
+    description: 'Es una pagina que maneja los turnos de una veterinaria y carga en detalle la informacion de cada paciente.',
     tags: [
       {
         name: 'nextjs',
@@ -291,9 +291,9 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Diseños de vistas MPA Jujuy',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Galeria de Fotos que corresponden a algunos de los diseños de vistas que he creado para el Sistema del Ministerio Publico de la acusación.',
     tags: [
       {
         name: 'nextjs',

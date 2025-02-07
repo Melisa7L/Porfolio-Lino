@@ -36,10 +36,10 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
+import propinas from './projects/propinas.png';
+import guitarras from './projects/guitarras.png';
+import math from './projects/gastos.png';
+import movie from './projects/citas.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
@@ -79,8 +79,8 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
+  propinas,
+  guitarras,
   math,
   movie,
   nyeusi,
