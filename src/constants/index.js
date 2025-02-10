@@ -286,8 +286,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'lucent-speculoos-1a8b75.netlify.app',
+    demo: 'lucent-speculoos-1a8b75.netlify.app',
   },
   {
     id: 'project-5',
@@ -309,8 +309,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://drive.google.com/drive/u/0/folders/1BvodviTkdUJCFTpBTU6gH5pVmTWWFGyJ',
+    demo: 'https://drive.google.com/drive/u/0/folders/1BvodviTkdUJCFTpBTU6gH5pVmTWWFGyJ',
   },
 ];
 
