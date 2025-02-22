@@ -38,7 +38,7 @@ import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
 import calorias from './projects/calorias.png';
-import guitarras from './projects/guitarras.png';
+import guitarras from './projects/guitarra.png';
 import cripto from './projects/cripto.png';
 import movie from './projects/citas.png';
 import space from './projects/space-hub.png';
