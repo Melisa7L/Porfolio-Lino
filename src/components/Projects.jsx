@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-import { github, pineapple, pineappleHover } from '../assets';
+import { github, diamanteN, diamanteB } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
@@ -88,16 +88,16 @@ const ProjectCard = ({
               onMouseOver={() => {
                 document
                   .querySelector('.btn-icon')
-                  .setAttribute('src', pineappleHover);
+                  .setAttribute('src', diamanteB);
               }}
               onMouseOut={() => {
                 document
                   .querySelector('.btn-icon')
-                  .setAttribute('src', pineapple);
+                  .setAttribute('src', diamanteN);
               }}>
               <img
-                src={pineapple}
-                alt="pineapple"
+                src={diamanteN}
+                alt="diamanteN"
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />

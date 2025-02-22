@@ -9,12 +9,13 @@ import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
-import pineapple from './icons/pineapple.png';
-import pineappleHover from './icons/pineappleHover.png';
+import diamanteN from './icons/diamanteN.png';
+import diamanteB from './icons/diamanteB.png';
 import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
+import mpa from './icons/mpajujuy.png';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -36,11 +37,10 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import propinas from './projects/propinas.png';
+import calorias from './projects/calorias.png';
 import guitarras from './projects/guitarras.png';
-import math from './projects/gastos.png';
+import cripto from './projects/cripto.png';
 import movie from './projects/citas.png';
-import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 import power from './tech/power.png';
@@ -60,8 +60,8 @@ export {
   close,
   download,
   downloadHover,
-  pineapple,
-  pineappleHover,
+  diamanteN,
+  diamanteB,
   menu,
   resume,
   send,
@@ -69,6 +69,7 @@ export {
   css,
   docker,
   git,
+  mpa,
   power,
   html,
   javascript,
@@ -79,11 +80,10 @@ export {
   redux,
   tailwind,
   typescript,
-  propinas,
+  calorias,
   guitarras,
-  math,
+  cripto,
   movie,
-  nyeusi,
   space,
   coverhunt,
   dcc,
