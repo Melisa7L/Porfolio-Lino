@@ -42,6 +42,7 @@ import guitarras from './projects/guitarra.png';
 import cripto from './projects/cripto.png';
 import movie from './projects/citas.png';
 import space from './projects/space-hub.png';
+import damas from './projects/damas.jpeg';
 
 import power from './tech/power.png';
 import django from './tech/django2.png';
@@ -54,6 +55,7 @@ export {
   django,
   backend,
   ux,
+  damas,
   frontend,
   prototyping,
   github,

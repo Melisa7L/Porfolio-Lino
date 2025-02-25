@@ -5,6 +5,7 @@ import { navLinks } from '../constants';
 import { FaLinkedin, FaInstagram, FaFacebook, FaGithub } from 'react-icons/fa'; // Asegúrate de tener react-icons instalada
 
 const Hero = () => {
+  
   return (
     <>
       {/* Fondo con nueva imagen y opacidad reducida */}

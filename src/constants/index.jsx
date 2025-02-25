@@ -14,6 +14,7 @@ import {
   power,
   calorias,
   guitarras,
+  damas,
   cripto,
   mpa,
   movie,
@@ -296,6 +297,31 @@ const projects = [
     repo: 'https://melisa7l.github.io/guitarra/',
     demo: 'https://melisa7l.github.io/guitarra/',
   },
+
+  {
+    id: 'project-2',
+    name: 'Juego Damas',
+    description:
+      'Juego de Damas realizado con C++ y SFML.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: damas,
+    repo: 'https://github.com/Melisa7L/damas',
+    demo: 'https://drive.google.com/drive/u/0/folders/1HSFPOFJ1cFh4oJyvmVTVh5dYhYVzAQSd',
+  },
+
   {
     id: 'project-3',
     name: 'Criptomonedas',
