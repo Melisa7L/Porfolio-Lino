@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { FaLinkedin, FaInstagram, FaFacebook, FaGithub } from 'react-icons/fa'; // Asegúrate de tener react-icons instalada
+import meliPhoto from '../assets/personal/meli.jpeg';
 
 const Hero = () => {
   
@@ -23,10 +24,11 @@ const Hero = () => {
             <div className="w-48 h-48 bg-gray-300 rounded-full overflow-hidden">
               {/* Aquí puedes agregar tu imagen */}
               <img
-                src="URL_DE_TU_IMAGEN"
-                alt="Foto de perfil"
-                className="w-full h-full object-cover"
-              />
+  src={meliPhoto}
+  alt="Foto de meli"
+  className="w-full h-full object-cover"
+/>
+
             </div>
           </div>
 
