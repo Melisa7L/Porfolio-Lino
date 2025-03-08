@@ -1,6 +1,5 @@
 import bwmap from './backgrounds/azul.jpg';
 import azul from './backgrounds/azul.jpg';
-import logotext from './logo/logo-text-black.png';
 import backend from './icons/big data.png';
 import ux from './icons/diseño.png';
 import frontend from './icons/machine.png';
@@ -25,12 +24,10 @@ import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 
 import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -41,7 +38,6 @@ import calorias from './projects/calorias.png';
 import guitarras from './projects/guitarra.png';
 import cripto from './projects/cripto.png';
 import movie from './projects/citas.png';
-import space from './projects/space-hub.png';
 import damas from './projects/damas.jpeg';
 
 import power from './tech/power.png';
@@ -51,7 +47,6 @@ export {
   bwmap,
   azul,
   python,
-  logotext,
   django,
   backend,
   ux,
@@ -77,16 +72,13 @@ export {
   javascript,
   nodejs,
   postgresql,
-  rubyrails,
   reactjs,
-  redux,
   tailwind,
   typescript,
   calorias,
   guitarras,
   cripto,
   movie,
-  space,
   coverhunt,
   dcc,
   kelhel,
