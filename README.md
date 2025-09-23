@@ -1,5 +1,5 @@
 🚀 Portfolio Web - Melisa7L
-¡Hola! 👋 Soy Fátima Melisa Lino,una entusiasta de la tecnología con pasión por el análisis de datos, testing, programación, diseño UX y machine learning. 💡 Este portfolio es una muestra de cómo combino creatividad y lógica para desarrollar soluciones digitales atractivas y funcionales.
+¡Hola! 👋 Soy Fátima Melisa Lino,Licenciada en Sistemas y una entusiasta de la tecnología con pasión por el análisis de datos, testing, programación, diseño UX y machine learning. 💡 Este portfolio es una muestra de cómo combino creatividad y lógica para desarrollar soluciones digitales atractivas y funcionales.
 
 
 💡 ¿Qué encontrarás aquí?
