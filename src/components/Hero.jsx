@@ -6,7 +6,7 @@ import meliPhoto from '../assets/personal/meli.jpeg';
 
 const Hero = () => {
   return (
-    <section className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
+    <section id="inicio" className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
       bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 overflow-hidden items-center justify-center">
       
       <div className="flex flex-col sm:flex-row items-center justify-center gap-10">
@@ -26,7 +26,7 @@ const Hero = () => {
             Fátima Melisa Lino
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-gray-300`}>
-            Licenciatura en Sistemas.
+            Licenciada en Sistemas.
           </p>
 
           {/* Íconos de redes sociales */}

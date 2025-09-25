@@ -37,8 +37,11 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-Soy una persona entusiasta, actualmente estoy terminando la tesis de Licenciatura en Sistemas. Me considero curiosa y autodidacta, siempre buscando nuevos desafíos para crecer. Mis intereses se centran en el análisis de datos, Big Data, bases de datos y tengo conocimientos en testing y machine learning. Además, cuento con experiencia en diseño de páginas web. 
-Estoy emocionada por las oportunidades futuras y lista para contribuir a proyectos innovadores.
+Soy Licenciada en Sistemas, apasionada por la tecnología y el aprendizaje continuo. Actualmente trabajo en el Ministerio Público de la Acusación, donde participo en el análisis y diseño de sistemas, el manejo de datos sensibles y la capacitación a usuarios, contribuyendo a mejorar la eficiencia y la experiencia de uso.
+
+Cuento con experiencia en inteligencia de negocios, análisis de datos, Big Data y bases de datos, aplicando herramientas como Python, SQL, React, Docker y AWS. Durante mi práctica profesional en el Gobierno de Jujuy desarrollé un proyecto con Django y Machine Learning, que incluyó el despliegue en producción en AWS.
+
+Me caracterizo por ser organizada, adaptable y orientada a los desafíos. Mi motivación es seguir creciendo y aportar valor en proyectos innovadores, especialmente en el área de análisis de datos y machine learning.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

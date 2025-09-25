@@ -105,7 +105,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'https://drive.google.com/file/d/1c0XflHFtq5sJgwGJDnG2gA56g2C6SAZ2/view?usp=sharing', //paste the link to your resume here
+                  'https://drive.google.com/drive/folders/1Jywb9ICX-XV8oN078DEzH9jwycqn7K0-?usp=drive_link', 
                   '_blank'
                 )
               }
@@ -134,4 +134,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, 'work');
+export default SectionWrapper(Experience, 'aprendizaje');
