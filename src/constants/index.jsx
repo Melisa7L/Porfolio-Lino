@@ -121,48 +121,45 @@ const technologies = [
 
 const experiences = [
   
-  // Cursos
+  // Trabajos (primero)
   {
-    title: 'CURSO DE MICROSOFT ACCESS',
-    company_name: 'Punto Digital',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Enero 2018- Marzo 2018',
+    title: 'Trabajo - Ministerio Público de la Acusación de Jujuy',
+    company_name: 'Ministerio Publico de la Acusacion',
+    icon: mpa, // Usamos la imagen importada
+    iconBg: '#F5A623',
+    date: '2024 - Presente',
+    description: '.',
   },
   {
-    title: 'CURSO DE INTRODUCCION AL DESARROLLO WEB',
-    company_name: 'Universidad de los Andes Colombia',
+    title: 'Trabajo - Desarrolladora de Machine Learning',
+    company_name: 'Área de Unificación Informática del Gobierno de la Provincia de Jujuy',
+    icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/python.svg',
+    iconBg: '#4A90E2',
+    date: '2023 - 2024',
+    description: 'Desarrollo de un proyecto utilizando Python, Django, MySQL, Visual Studio Code, GitHub y Docker.',
+  },
+
+  // Cursos (orden descendente por fecha)
+  {
+    title: 'Diplomatura Universitaria - Análisis de Datos desde Cero - Acelera tu Futuro',
+    company_name: 'Universidad Nacional de Jujuy',
     icon: microverse,
     iconBg: '#333333',
-    date: '30 de octubre 2021',
+    date: 'Febrero 2025 - Abril 2025',
   },
   {
-    title: 'CURSO DE SECRETARIADO CONTABLE INFORMATICO',
-    company_name: 'Punto Digital',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'Agosto 2021- Diciembre 2021',
-  },
-  {
-    title: 'CURSO DE BIG DATA',
-    company_name: 'Programa Codo a Codo',
+    title: 'CURSO UDEMY:"REACT-LA GUIA COMPLETA:HOOKS CONTEXT REDUX MERN+15 APPS"',
+    company_name: 'Udemy',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Julio 2022',
+    date: '2024',
   },
   {
-    title: 'CURSO DE ORACLE (PROGRAMA NEXT EDUCACION)-BACKEND',
-    company_name: 'Alura Latam',
-    icon: coverhunt,
+    title: 'Curso de Electricidad Domiciliaria',
+    company_name: 'Fundación Educando',
+    icon: kelhel,
     iconBg: '#333333',
-    date: '02/04/2023 al 23/08/2023',
-  },
-  {
-    title: 'CURSO FORMACION LIDER DE TESTING',
-    company_name: 'Universidad Tecnologica Nacional',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Agosto de 2023',
+    date: '2024',
   },
   {
     title: 'CURSO DE INGLES EN CUI-UBA',
@@ -172,36 +169,56 @@ const experiences = [
     date: '2023',
   },
   {
-    title: 'CURSO UDEMY:"REACT-LA GUIA COMPLETA:HOOKS CONTEXT REDUX MERN+15 APPS"',
-    company_name: 'Udemy',
+    title: 'CURSO FORMACION LIDER DE TESTING',
+    company_name: 'Universidad Tecnologica Nacional',
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'Agosto de 2023',
+  },
+  {
+    title: 'CURSO DE ORACLE (PROGRAMA NEXT EDUCACION)-BACKEND',
+    company_name: 'Alura Latam',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: '02/04/2023 al 23/08/2023',
+  },
+  {
+    title: 'CURSO DE BIG DATA',
+    company_name: 'Programa Codo a Codo',
     icon: dcc,
     iconBg: '#333333',
-    date: '2024',
+    date: 'Julio 2022',
   },
-
   {
-    title: 'Trabajo - Desarrolladora de Machine Learning',
-    company_name: 'Area de Unificacion Informatica del Gobierno de la Provincia de Jujuy',
-    icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/python.svg', // URL del ícono de Python
-    iconBg: '#4A90E2', // Color distintivo
-    date: '2023 - 2024',
-    description: 'Desarrollo de un proyecto utilizando Python, Django, MySQL, Visual Studio Code, GitHub y Docker.',
+    title: 'CURSO DE SECRETARIADO CONTABLE INFORMATICO',
+    company_name: 'Punto Digital',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: 'Agosto 2021- Diciembre 2021',
   },
-  
+  {
+    title: 'CURSO DE INTRODUCCION AL DESARROLLO WEB',
+    company_name: 'Universidad de los Andes Colombia',
+    icon: microverse,
+    iconBg: '#333333',
+    date: '30 de octubre 2021',
+  },
+  {
+    title: 'Curso teórico-práctico de armado y reparación de PC',
+    company_name: 'Universidad Nacional de Jujuy',
+    icon: dcc,
+    iconBg: '#333333',
+    date: '2019',
+  },
+  {
+    title: 'CURSO DE MICROSOFT ACCESS',
+    company_name: 'Punto Digital',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Enero 2018- Marzo 2018',
+  },
 
-    {
-      title: 'Trabajo - Ministerio Público de la Acusación de Jujuy',
-      company_name: 'Ministerio Publico de la Acusacion',
-      icon: mpa, // Usamos la imagen importada
-      iconBg: '#F5A623',
-      date: '2024 - Presente',
-      description: '.',
-    },
   
-  
-  
-  
-
 ];
 
 const projects = [

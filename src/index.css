@@ -134,6 +134,47 @@
   );
 }
 
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .hash-span {
+    margin-top: -88px;
+    padding-bottom: 88px;
+  }
+}
+
+@media (max-width: 768px) {
+  #about,
+  #projects,
+  #aprendizaje,
+  #contact {
+    font-size: 56px;
+    margin-left: 0;
+  }
+
+  .hash-span {
+    margin-top: -78px;
+    padding-bottom: 78px;
+  }
+
+  .vertical-timeline-element-content {
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #about,
+  #projects,
+  #aprendizaje,
+  #contact {
+    font-size: 40px;
+  }
+
+  .hash-span {
+    margin-top: -68px;
+    padding-bottom: 68px;
+  }
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
