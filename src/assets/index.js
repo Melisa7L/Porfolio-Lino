@@ -1,6 +1,16 @@
 import bwmap from './backgrounds/azul.jpg';
 import azul from './backgrounds/azul.jpg';
 import backend from './icons/big data.png';
+import bigdata from './icons/big data.png';
+import testing from './icons/testing.png';
+import electricidad from './icons/electricidad.png';
+import react from './icons/react.png';
+import analisis_datos from './icons/analisis_datos.png';
+import ingles from './icons/ingles.jpeg';
+import contable from './icons/contable.png';
+import access from './icons/access.png';
+import desarrollo from './icons/desarrollo.png';
+import reparacion from './icons/reparacion.png';
 import ux from './icons/diseño.png';
 import frontend from './icons/machine.png';
 import prototyping from './icons/testing.png';
@@ -49,6 +59,16 @@ export {
   python,
   django,
   backend,
+  bigdata,
+  testing,
+  electricidad,
+  react,
+  analisis_datos,
+  ingles,
+  contable,
+  access,
+  desarrollo,
+  reparacion,
   ux,
   damas,
   frontend,
