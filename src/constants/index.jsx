@@ -121,27 +121,25 @@ const technologies = [
 
 const experiences = [
   
-  // Trabajos (primero)
   {
-    title: 'Trabajo - Ministerio Público de la Acusación de Jujuy',
+    title: 'Trabajo - Ministerio Publico de la Acusacion de Jujuy',
     company_name: 'Ministerio Publico de la Acusacion',
-    icon: mpa, // Usamos la imagen importada
+    icon: mpa, 
     iconBg: '#F5A623',
     date: '2024 - Presente',
     description: '.',
   },
   {
     title: 'Trabajo - Desarrolladora de Machine Learning',
-    company_name: 'Área de Unificación Informática del Gobierno de la Provincia de Jujuy',
+    company_name: 'Area de Unificacion Informatica del Gobierno de la Provincia de Jujuy',
     icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/python.svg',
     iconBg: '#4A90E2',
     date: '2023 - 2024',
     description: 'Desarrollo de un proyecto utilizando Python, Django, MySQL, Visual Studio Code, GitHub y Docker.',
   },
 
-  // Cursos (orden descendente por fecha)
   {
-    title: 'Diplomatura Universitaria - Análisis de Datos desde Cero - Acelera tu Futuro',
+    title: 'Diplomatura Universitaria - Analisis de Datos desde Cero - Acelera tu Futuro',
     company_name: 'Universidad Nacional de Jujuy',
     icon: microverse,
     iconBg: '#333333',
@@ -156,7 +154,7 @@ const experiences = [
   },
   {
     title: 'Curso de Electricidad Domiciliaria',
-    company_name: 'Fundación Educando',
+    company_name: 'Fundacion Educando',
     icon: kelhel,
     iconBg: '#333333',
     date: '2024',

@@ -26,7 +26,9 @@ const Hero = () => {
             Fátima Melisa Lino
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-gray-300`}>
-            Licenciada en Sistemas.
+            Licenciada en Sistemas.          </p>
+          <p className={`${styles.heroSubText} mt-2 text-gray-300`}>
+            Analisis de Datos y Machine Learning | Diseño UX/UI
           </p>
 
           {/* Íconos de redes sociales */}

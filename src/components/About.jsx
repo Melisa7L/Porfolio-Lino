@@ -17,8 +17,8 @@ const ServiceCard = ({ index, title, icon }) => {
           speed: 450,
         }}
         className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-        <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-        <h3 className="text-taupe text-[18px] font-bold text-center">
+  <img src={icon} alt={title} className="w-24 h-24 object-contain" />
+  <h3 className="text-taupe text-[24px] font-extrabold text-center">
           {title}
         </h3>
       </div>
@@ -36,7 +36,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+  className="mt-4 text-jet text-[18px] max-w-3xl leading-[30px]">
 Soy Licenciada en Sistemas, apasionada por la tecnología y el aprendizaje continuo. Actualmente trabajo en el Ministerio Público de la Acusación, donde participo en el análisis y diseño de sistemas, el manejo de datos sensibles y la capacitación a usuarios, contribuyendo a mejorar la eficiencia y la experiencia de uso.
 
 Cuento con experiencia en inteligencia de negocios, análisis de datos, Big Data y bases de datos, aplicando herramientas como Python, SQL, React, Docker y AWS. Durante mi práctica profesional en el Gobierno de Jujuy desarrollé un proyecto con Django y Machine Learning, que incluyó el despliegue en producción en AWS.
