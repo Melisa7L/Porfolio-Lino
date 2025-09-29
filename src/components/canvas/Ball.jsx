@@ -8,18 +8,9 @@ import {
   useTexture,
 } from '@react-three/drei';
 import Loader from '../Loader';
-import closeIcon from '../../assets/icons/close.png';
 
 const Ball = (props) => {
-  let decal;
-  try {
-    [decal] = useTexture([props.imgUrl]);
-    if (!decal || !decal.image) {
-      [decal] = useTexture([closeIcon]);
-    }
-  } catch (e) {
-    [decal] = useTexture([closeIcon]);
-  }
+  const [decal] = useTexture([props.imgUrl]);
 
   return (
     <Float speed={2.5} rotationIntensity={1} floatIntensity={2}>

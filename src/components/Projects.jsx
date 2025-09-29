@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
 import { github, diamanteN, diamanteB } from '../assets';
+import send from '../assets/icons/send.png';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
@@ -97,8 +98,8 @@ const ProjectCard = ({
               ease-in-out"
               onClick={() => window.open(demo, '_blank')}>
               <img
-                src={"/src/assets/icons/send.png"}
-                alt="demo"
+                src={diamanteN}
+                alt="diamanteN"
                 className="btn-icon sm:w-[34px] sm:h-[34px] w-[30px] h-[30px] object-contain"
               />
               {/^https?:\/\/www\.youtube\.com\//.test(demo) ? 'VER VIDEO' : 'LIVE DEMO'}
