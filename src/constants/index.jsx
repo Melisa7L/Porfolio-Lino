@@ -283,7 +283,7 @@ const projects = [
     demo: 'https://melisa7l.github.io/calorias/',
   },
   {
-    id: 'project-2',
+    id: 'project-guitarras',
     name: 'Sitio Guitarras',
     description:
       'En este sitio, encontrarás una amplia variedad de guitarras para todos los gustos y necesidades.',
@@ -297,7 +297,7 @@ const projects = [
     demo: 'https://melisa7l.github.io/guitarra/',
   },
   {
-    id: 'project-2',
+    id: 'project-damas',
     name: 'Juego Damas',
     description:
       'Juego de Damas realizado con C++ y SFML.',

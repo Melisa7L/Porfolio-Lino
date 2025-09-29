@@ -47,8 +47,8 @@ const ProjectCard = ({
       {active !== id ? (
         <div className="flex items-center justify-start pr-[4.5rem]">
           <h3
-            className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-        whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
+            className="font-extrabold font-beckman uppercase w-[180px] h-[28px] 
+        whitespace-nowrap sm:text-[21px] text-[15px] text-timberWolf tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20">
             {name}
@@ -76,14 +76,14 @@ const ProjectCard = ({
             )}
 
             <h2
-              className="font-bold sm:text-[32px] text-[24px] 
+              className="font-bold sm:text-[24px] text-[17px] 
               text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]">
               {name}
             </h2>
             <p
-              className="text-silver sm:text-[14px] text-[12px] 
-              max-w-3xl sm:leading-[24px] leading-[18px]
-              font-poppins tracking-[1px]">
+              className="text-white drop-shadow-lg sm:text-[15px] text-[13px] 
+              max-w-3xl sm:leading-[25px] leading-[19px]
+              font-poppins tracking-[1px] bg-black/40 px-2 py-1 rounded-md">
               {description}
             </p>
             <button
@@ -95,22 +95,11 @@ const ProjectCard = ({
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() => window.open(demo, '_blank')}
-              onMouseOver={() => {
-                document
-                  .querySelector('.btn-icon')
-                  .setAttribute('src', diamanteB);
-              }}
-              onMouseOut={() => {
-                document
-                  .querySelector('.btn-icon')
-                  .setAttribute('src', diamanteN);
-              }}>
+              onClick={() => window.open(demo, '_blank')}>
               <img
-                src={diamanteN}
-                alt="diamanteN"
-                className="btn-icon sm:w-[34px] sm:h-[34px] 
-                  w-[30px] h-[30px] object-contain"
+                src={"/src/assets/icons/send.png"}
+                alt="demo"
+                className="btn-icon sm:w-[34px] sm:h-[34px] w-[30px] h-[30px] object-contain"
               />
               {/^https?:\/\/www\.youtube\.com\//.test(demo) ? 'VER VIDEO' : 'LIVE DEMO'}
             </button>
@@ -122,7 +111,7 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
-  const [active, setActive] = useState('project-2');
+  const [active, setActive] = useState('project-1');
 
   return (
     <div className="-mt-[6rem]">

@@ -10,7 +10,12 @@ import {
 import Loader from '../Loader';
 
 const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl]);
+  let decal;
+  try {
+    [decal] = useTexture([props.imgUrl]);
+  } catch (e) {
+    [decal] = useTexture([require('../../assets/icons/close.png')]);
+  }
 
   return (
     <Float speed={2.5} rotationIntensity={1} floatIntensity={2}>
