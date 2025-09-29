@@ -43,16 +43,20 @@ export default {
         '3xl': '1800px',
       },
       backgroundImage: {
+        // Fondo global turquesa con viñeta suave
+        site:
+          'radial-gradient(circle at 50% 50%, rgba(23, 121, 128, 0.9) 0%, rgba(10, 78, 85, 0.95) 45%, rgba(6, 54, 60, 1) 100%)',
         about:
           'linear-gradient(165deg, rgb(246, 245, 244) 100%, rgba(122,122,122,1) 100%)',
         experience:
-          "linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%),url('/src/assets/backgrounds/azul.jpg')",
+          'linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%), radial-gradient(circle at 50% 50%, rgba(23,121,128,0.85) 0%, rgba(10,78,85,0.95) 45%, rgba(6,54,60,1) 100%)',
         experienceLight:
           'linear-gradient(137deg, rgb(246, 245, 244) 60%, hsla(221, 85.90%, 13.90%, 0.90) 60%)',
         hero: 'linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,0.95) 60%)',
         'hero-mobile':
           'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',
-        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/azul.jpg')",
+        tech:
+          'linear-gradient(165deg, rgba(20,20,20,0.65) 100%, rgba(109,109,116,0.55) 100%), radial-gradient(circle at 50% 50%, rgba(23,121,128,0.9) 0%, rgba(10,78,85,0.95) 45%, rgba(6,54,60,1) 100%)',
       },
       fontFamily: {
         arenq: ['Arenq'],

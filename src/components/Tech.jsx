@@ -10,7 +10,7 @@ const Tech = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubTextLight}>Mis habilidades</p>
-        <h2 className={styles.sectionHeadTextLight}>Tecnologias.</h2>
+        <h2 className={`${styles.sectionHeadTextLight} inline-block border-b-4 border-teal-300 pb-1`}>Tecnologias.</h2>
       </motion.div>
 
       <div className="flex flex-wrap justify-center gap-10 mt-14">

@@ -31,7 +31,7 @@ const About = () => {
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduccion</p>
-        <h2 className={styles.sectionHeadText}>Sobre mi.</h2>
+        <h2 className={`${styles.sectionHeadText} inline-block border-b-4 border-teal-300 pb-1`}>Sobre mi.</h2>
       </motion.div>
 
       <motion.p
@@ -44,7 +44,9 @@ Cuento con experiencia en inteligencia de negocios, análisis de datos, Big Data
 Me caracterizo por ser organizada, adaptable y orientada a los desafíos. Mi motivación es seguir creciendo y aportar valor en proyectos innovadores, especialmente en el área de análisis de datos y machine learning.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-10 h-px w-full bg-gradient-to-r from-transparent via-teal-300/50 to-transparent" />
+
+      <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

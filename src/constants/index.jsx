@@ -229,6 +229,20 @@ const experiences = [
 ];
 const projects = [
   {
+    id: 'project-ml-news',
+    name: 'Clasificador de Noticias (ML)',
+    description:
+      'Herramienta de Machine Learning que clasifica noticias. Video demostrativo con flujo, dataset y resultados.',
+    tags: [
+      { name: 'ml', color: 'green-text-gradient' },
+      { name: 'python', color: 'blue-text-gradient' },
+      { name: 'streamlit', color: 'pink-text-gradient' },
+    ],
+    image: 'https://img.youtube.com/vi/pIdJLXu1O_Y/hqdefault.jpg',
+    repo: '',
+    demo: 'https://www.youtube.com/watch?v=pIdJLXu1O_Y',
+  },
+  {
     id: 'project-5',
     name: 'Diseños de vistas MPA Jujuy',
     description:

@@ -35,6 +35,15 @@ const ProjectCard = ({
         className="absolute w-full h-full object-cover rounded-[24px]"
       />
 
+      {/* Overlay de Play para videos de YouTube */}
+      {/^https?:\/\/www\.youtube\.com\//.test(demo) && (
+        <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
+          <div className="w-20 h-20 rounded-full bg-teal-400/80 backdrop-blur-sm flex items-center justify-center shadow-xl">
+            <span className="ml-1 border-l-[22px] border-l-white border-y-[14px] border-y-transparent" />
+          </div>
+        </div>
+      )}
+
       {active !== id ? (
         <div className="flex items-center justify-start pr-[4.5rem]">
           <h3
@@ -50,19 +59,21 @@ const ProjectCard = ({
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(79, 92, 8, 0.5)] rounded-b-[24px] z-20">
-            <div className="absolute inset-0 flex justify-end m-3">
-              <div
-                onClick={() => window.open(repo, '_blank')}
-                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                  flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]">
-                <img
-                  src={github}
-                  alt="source code"
-                  className="w-4/5 h-4/5 object-contain"
-                />
+            {repo && (
+              <div className="absolute inset-0 flex justify-end m-3">
+                <div
+                  onClick={() => window.open(repo, '_blank')}
+                  className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
+                    flex justify-center items-center cursor-pointer
+                    sm:opacity-[0.9] opacity-[0.8]">
+                  <img
+                    src={github}
+                    alt="source code"
+                    className="w-4/5 h-4/5 object-contain"
+                  />
+                </div>
               </div>
-            </div>
+            )}
 
             <h2
               className="font-bold sm:text-[32px] text-[24px] 
@@ -101,7 +112,7 @@ const ProjectCard = ({
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
-              LIVE DEMO
+              {/^https?:\/\/www\.youtube\.com\//.test(demo) ? 'VER VIDEO' : 'LIVE DEMO'}
             </button>
           </div>
         </>

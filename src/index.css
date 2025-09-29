@@ -126,12 +126,12 @@
 }
 
 .card-gradient {
-  background: rgb(244, 244, 246);
   background: linear-gradient(
     158deg,
-    rgba(153, 153, 161, 1) 25%,
-    rgba(153, 153, 161, 1) 100%
+    rgba(32, 150, 160, 0.25) 0%,
+    rgba(16, 110, 118, 0.25) 100%
   );
+  border: 1px solid rgba(45, 180, 190, 0.25);
 }
 
 /* Responsive adjustments */

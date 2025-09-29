@@ -58,7 +58,7 @@ const Experience = () => {
   <p className="text-gray-600 sm:pl-16 pl-[2rem] text-xl font-bold">
     Mi Camino de Aprendizaje
   </p>
-  <h2 className="text-5xl font-bold sm:pl-16 pl-[2rem] text-jetLight">
+  <h2 className="text-5xl font-bold sm:pl-16 pl-[2rem] text-jetLight inline-block border-b-4 border-teal-300 pb-1">
     Cursos y Experiencia Laboral.
   </h2>
 </div>
@@ -82,9 +82,9 @@ const Experience = () => {
               alignItems: 'center',
             }}
             contentArrowStyle={{
-              borderRight: '7px solid  #232631',
+              borderRight: '7px solid  rgba(32,150,160,0.6)',
             }}
-            iconStyle={{ background: '#333333' }}
+            iconStyle={{ background: 'rgba(32,150,160,0.85)' }}
             icon={
               <div className="flex justify-center items-center w-full h-full">
                 <img
