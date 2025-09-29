@@ -98,8 +98,8 @@ const ProjectCard = ({
               ease-in-out"
               onClick={() => window.open(demo, '_blank')}>
               <img
-                src={diamanteN}
-                alt="diamanteN"
+                src={send}
+                alt="demo"
                 className="btn-icon sm:w-[34px] sm:h-[34px] w-[30px] h-[30px] object-contain"
               />
               {/^https?:\/\/www\.youtube\.com\//.test(demo) ? 'VER VIDEO' : 'LIVE DEMO'}

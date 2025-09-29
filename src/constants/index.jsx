@@ -230,7 +230,7 @@ const experiences = [
 const projects = [
   {
     id: 'project-ml-news',
-    name: 'Clasificador de Noticias (ML)',
+    name: 'Clasificador de Noticias',
     description:
       'Herramienta de Machine Learning que clasifica noticias. Video demostrativo con flujo, dataset y resultados.',
     tags: [
@@ -246,7 +246,7 @@ const projects = [
     id: 'project-5',
     name: 'Diseños de vistas MPA Jujuy',
     description:
-      'Galeria de Fotos que corresponden a algunos de los diseños de vistas que he creado para el Sistema del Ministerio Publico de la acusación.',
+      'Fotos de diseños de vistas que hice para el Sistema del Ministerio Publico de la acusación.',
     tags: [
       { name: 'nextjs', color: 'blue-text-gradient' },
       { name: 'supabase', color: 'green-text-gradient' },
@@ -259,7 +259,7 @@ const projects = [
   {
     id: 'project-4',
     name: 'Citas en Veterinaria',
-    description: 'Es una pagina que maneja los turnos de una veterinaria y carga en detalle la informacion de cada paciente.',
+    description: 'Pagina que maneja los turnos de una veterinaria y carga en detalle la informacion de cada paciente.',
     tags: [
       { name: 'nextjs', color: 'blue-text-gradient' },
       { name: 'supabase', color: 'green-text-gradient' },
