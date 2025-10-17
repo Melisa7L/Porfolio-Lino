@@ -15,6 +15,7 @@ import {
   calorias,
   guitarras,
   damas,
+  vestidos,
   cripto,
   mpa,
   movie,
@@ -242,6 +243,22 @@ const projects = [
     repo: '',
     demo: 'https://www.youtube.com/watch?v=pIdJLXu1O_Y',
   },
+
+  {
+    id: 'sitio-creaciones-gabriela',
+    name: 'Sitio Creaciones Gabriela',
+    description:
+      'Sitio para visualizar los vestidos del negocio llamado Creaciones Gabriela.',
+    tags: [
+      { name: 'ml', color: 'green-text-gradient' },
+      { name: 'python', color: 'blue-text-gradient' },
+      { name: 'streamlit', color: 'pink-text-gradient' },
+    ],
+    image: vestidos,
+    repo: 'https://melisa7l.github.io/Creaciones-Gabriela/',
+    demo: 'https://melisa7l.github.io/Creaciones-Gabriela/',
+  },
+
   {
     id: 'project-5',
     name: 'Diseños de vistas MPA Jujuy',

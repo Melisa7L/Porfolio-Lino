@@ -8,6 +8,7 @@ import react from './icons/react.png';
 import analisis_datos from './icons/analisis_datos.png';
 import ingles from './icons/ingles.jpeg';
 import contable from './icons/contable.png';
+import vestidos from './icons/vestidos.jpeg';
 import access from './icons/access.png';
 import desarrollo from './icons/desarrollo.png';
 import reparacion from './icons/reparacion.png';
@@ -76,6 +77,7 @@ export {
   github,
   close,
   download,
+  vestidos,
   downloadHover,
   diamanteN,
   diamanteB,
