@@ -283,8 +283,8 @@ const projects = [
       { name: 'css', color: 'pink-text-gradient' },
     ],
     image: movie,
-    repo: 'https://melisa7l.github.io/citas/',
-    demo: 'https://melisa7l.github.io/citas/',
+    repo: 'https://melisa7l.github.io/Citas-de-una-Veterinaria/',
+    demo: 'https://melisa7l.github.io/Citas-de-una-Veterinaria/',
   },
   {
     id: 'project-1',
