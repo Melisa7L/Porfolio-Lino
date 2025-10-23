@@ -17,6 +17,7 @@ import {
   damas,
   vestidos,
   cripto,
+  propinas,
   mpa,
   movie,
   django,
@@ -299,6 +300,7 @@ const projects = [
     repo: 'https://melisa7l.github.io/calorias/',
     demo: 'https://melisa7l.github.io/calorias/',
   },
+  
   {
     id: 'project-guitarras',
     name: 'Sitio Guitarras',
@@ -313,6 +315,21 @@ const projects = [
     repo: 'https://melisa7l.github.io/guitarra/',
     demo: 'https://melisa7l.github.io/guitarra/',
   },
+{
+    id: 'project-propinas',
+    name: 'Sitio Propinas',
+    description:
+      'Este sitio te permite calcular fácilmente las propinas en función del total de la cuenta y el porcentaje que deseas dejar.',
+    tags: [
+      { name: 'react', color: 'blue-text-gradient' },
+      { name: 'restapi', color: 'green-text-gradient' },
+      { name: 'scss', color: 'pink-text-gradient' },
+    ],
+    image: propinas,
+    repo: 'https://melisa7l.github.io/Propinas/',
+    demo: 'https://melisa7l.github.io/Propinas/',
+  },
+
   {
     id: 'project-damas',
     name: 'Juego Damas',
@@ -340,6 +357,7 @@ const projects = [
     repo: 'https://melisa7l.github.io/cripto/',
     demo: 'https://melisa7l.github.io/cripto/',
   },
+  
 ];
 
 

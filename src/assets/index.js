@@ -50,9 +50,13 @@ import guitarras from './projects/guitarra.png';
 import cripto from './projects/cripto.png';
 import movie from './projects/citas.png';
 import damas from './projects/damas.jpeg';
+import propinas from './projects/propinas.png';
+
+import django from './tech/django2.png';
 
 import power from './tech/power.png';
-import django from './tech/django2.png';
+
+
 
 export {
   bwmap,
@@ -100,6 +104,7 @@ export {
   calorias,
   guitarras,
   cripto,
+  propinas,
   movie,
   coverhunt,
   dcc,
