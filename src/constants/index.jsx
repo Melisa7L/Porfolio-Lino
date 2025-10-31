@@ -151,6 +151,13 @@ const experiences = [
     date: '2023 - 2024',
     description: 'Desarrollo de un proyecto utilizando Python, Django, MySQL, Visual Studio Code, GitHub y Docker.',
   },
+    {
+    title: 'CURSO TESTING QA MANUAL',
+    company_name: 'ProgramON Coca Cola',
+    icon: testing,
+    iconBg: '#333333',
+    date: 'Agosto 2025 - Octubre 2025',
+  },
   {
     title: 'Diplomatura Universitaria - Analisis de Datos desde Cero - Acelera tu Futuro',
     company_name: 'Universidad Nacional de Jujuy',
