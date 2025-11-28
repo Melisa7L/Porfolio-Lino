@@ -51,6 +51,18 @@ import cripto from './projects/cripto.png';
 import movie from './projects/citas.png';
 import damas from './projects/damas.jpeg';
 import propinas from './projects/propinas.png';
+import fraudes_1 from './projects/fraudes_1.jpg';
+import fraudes_2 from './projects/fraudes_2.jpg';
+import fraudes_3 from './projects/fraudes_3.jpg';
+import homicidios_1 from './projects/homicidios_1.png';
+import homicidios_2 from './projects/homicidios_2.png';
+import homicidios_3 from './projects/homicidios_3.png';
+import homicidios_4 from './projects/homicidios_4.png';
+import homicidios_5 from './projects/homicidios_5.png';
+import prestamos_1 from './projects/prestamos_1.jpg';
+import prestamos_2 from './projects/prestamos_2.jpg';
+import prestamos_3 from './projects/prestamos_3.jpg';
+import productos from './projects/productos.jpg';
 
 import django from './tech/django2.png';
 
@@ -106,6 +118,18 @@ export {
   cripto,
   propinas,
   movie,
+  fraudes_1,
+  fraudes_2,
+  fraudes_3,
+  homicidios_1,
+  homicidios_2,
+  homicidios_3,
+  homicidios_4,
+  homicidios_5,
+  prestamos_1,
+  prestamos_2,
+  prestamos_3,
+  productos,
   coverhunt,
   dcc,
   kelhel,

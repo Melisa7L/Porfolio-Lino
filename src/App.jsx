@@ -6,6 +6,7 @@ import {
   Navbar,
   Tech,
   Projects,
+  Analyses,
 } from './components';
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         </div>
 
         <Projects />
+        <Analyses />
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 

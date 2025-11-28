@@ -29,6 +29,18 @@ import {
   bigdata,
   testing,
   electricidad,
+  fraudes_1,
+  fraudes_2,
+  fraudes_3,
+  homicidios_1,
+  homicidios_2,
+  homicidios_3,
+  homicidios_4,
+  homicidios_5,
+  prestamos_1,
+  prestamos_2,
+  prestamos_3,
+  productos,
   react,
   analisis_datos,
   ingles,
@@ -59,6 +71,10 @@ export const navLinks = [
   {
     id: 'aprendizaje',
     title: 'Aprendizaje',
+  },
+  {
+    id: 'analyses',
+    title: 'Análisis',
   },
 
 ];
@@ -367,5 +383,60 @@ const projects = [
   
 ];
 
+const analyses = [
+  {
+    id: 'analysis-fraudes',
+    name: 'Análisis de Fraudes bancarios',
+    description: 'El proyecto analizó 200.000 transacciones (usando Python y Power BI) para hallar patrones de fraude, enfocándose en el tipo de operación, perfil del cliente y el factor temporal.',
+    images: [fraudes_1, fraudes_2, fraudes_3],
+    explanation:
+      'Análisis exploratorio, modelado y evaluación de modelos de clasificación para detectar comportamientos anómalos.',
+    conclusion: 'Conclusión:El fraude no es aleatorio, sino que sigue patrones predecibles por hora, día y perfil. Esta información es vital para mejorar la prevención y la seguridad operativa',
+    detailedDescription: `1.Operaciones Afectadas: Transferencias, débitos y créditos.
+2.Víctimas: Clientes de 35 a 55 años.
+3.Horario Crítico: Madrugada (00:00 a 09:00 hs), lo que indica automatización.
+4.Días Pico: Lunes y viernes.
+5.Ubicación: Ciudades con alto volumen transaccional.`,
+    repo: '',
+    demo: '',
+  },
+  {
+    id: 'analysis-homicidios',
+    name: 'Análisis de homicidios dolosos',
+    description: 'Estudio de la conexión víctima-inculpado para detectar patrones y redes de relaciones.',
+    images: [homicidios_1, homicidios_2, homicidios_3, homicidios_4, homicidios_5],
+    explanation:
+      ``,
+    conclusion: 'Los modelos predictivos son útiles, pero necesitan datasets más amplios para mejorar la precisión, especialmente en la identificación de relaciones familiares específicas',
+    detailedDescription: `Hallazgos Clave: \n1.Relación Dominante: En la mayoría de los casos, la víctima no tenía relación previa con el inculpado.\n2.Limitación del Modelo: El modelo tiene dificultad para predecir relaciones familiares complejas.\n3.Clustering: Se detectaron grupos de relaciones bien definidos, pero un cluster presentó baja separación, lo que sugiere la existencia de factores ocultos no incluidos en el análisis.`,
+    repo: '',
+    demo: '',
+  },
+  {
+    id: 'analysis-prestamos',
+    name: 'Análisis de impago de préstamos',
+    description: 'Modelado de riesgo y análisis de variables predictoras del incumplimiento.',
+    images: [prestamos_1, prestamos_2, prestamos_3],
+    explanation:
+      'Limpieza de datos, selección de características y modelos de scoring para predecir probabilidad de impago.',
+    conclusion: 'El riesgo está impulsado por préstamos de inversión . Ajustar el scoring y endurecer las políticas para propiedades no habitacionales.',
+    detailedDescription: 'Cifras Clave: Volumen Total: $49 mil millones.\n\nHallazgos Clave:\n1.Mayor Riesgo: Préstamos para propiedades de inversión (default $>30\%$).\n2.Sobreendeudamiento: Clientes de ingresos bajos,medios/altos.\n3.Edad Concentrada: Clientes de 35 a 54 años.',
+    repo: '',
+    demo: '',
+  },
+  {
+    id: 'analysis-productos',
+    name: 'Análisis de productos por tipo de compra',
+    description: 'Segmentación y análisis de comportamiento según el tipo de compra del producto.',
+    images: [productos],
+    explanation:
+      'Agrupamiento, análisis de cesta de compras y segmentación de clientes a través de clustering.',
+    conclusion: 'Los canales físico y online dominan el volumen de ventas. La rotación se concentra en categorías de consumo básicas. Las diferencias de ventas y tickets entre las ciudades son clave para la segmentación comercial.',
+    detailedDescription: 'Hallazgos Clave:\n1.Productos Estrella: Los productos más vendidos en cantidad son Papas Fritas, Bebidas y Hamburguesas (consumo básico).\n2.Ubicación: Las ciudades de París, Madrid y Lisboa concentran la mayor actividad transaccional.\n3.Ticket Promedio: El ticket promedio se sitúa en torno a 3.15 mil, pero con una alta dispersión entre las diferentes ciudades.',
+    repo: '',
+    demo: '',
+  },
+];
 
-export { services, technologies, experiences, projects };
+
+export { services, technologies, experiences, projects, analyses };

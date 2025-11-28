@@ -221,6 +221,21 @@
     background-color: var(--swiper-pagination-color) !important; 
 }
 
+/* Larger pagination bullets for the Analyses carousel */
+.analyses-swiper .swiper-pagination-bullet {
+  width: 14px !important;
+  height: 14px !important;
+  opacity: 0.65;
+  background: rgba(255,255,255,0.25);
+  transition: all 0.2s ease;
+}
+.analyses-swiper .swiper-pagination-bullet-active {
+  width: 18px !important;
+  height: 18px !important;
+  background-color: var(--swiper-pagination-color) !important;
+  opacity: 1;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
