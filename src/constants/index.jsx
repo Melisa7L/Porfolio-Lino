@@ -392,9 +392,9 @@ const analyses = [
     explanation:
       'Análisis exploratorio, modelado y evaluación de modelos de clasificación para detectar comportamientos anómalos.',
     conclusion: 'Conclusión:El fraude no es aleatorio, sino que sigue patrones predecibles por hora, día y perfil. Esta información es vital para mejorar la prevención y la seguridad operativa',
-    detailedDescription: `1.Operaciones Afectadas: Transferencias, débitos y créditos.
+    detailedDescription: `Hallazgos Clave:\n1.Operaciones Afectadas: Transferencias, débitos y créditos.
 2.Víctimas: Clientes de 35 a 55 años.
-3.Horario Crítico: Madrugada (00:00 a 09:00 hs), lo que indica automatización.
+3.Horario Crítico: Madrugada (00:00 a 09:00 hs).
 4.Días Pico: Lunes y viernes.
 5.Ubicación: Ciudades con alto volumen transaccional.`,
     repo: '',

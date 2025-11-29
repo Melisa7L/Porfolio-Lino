@@ -76,24 +76,42 @@ const AnalysisCard = ({ name, description, images = [], explanation, conclusion,
 
       {/* Modal overlay */}
       {modalOpen && (
-        <div onClick={closeModal} className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-6">
-          <div onClick={(e) => e.stopPropagation()} className="relative w-full max-w-[92%] max-h-[92%] flex items-center justify-center">
-            <button onClick={closeModal} aria-label="Cerrar" className="absolute top-3 right-3 z-50 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:opacity-90">
-              <span className="font-bold text-lg text-black leading-none">×</span>
+        <div 
+          onClick={closeModal} 
+          className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-0 will-change-transform"
+          style={{ overflow: 'auto', scrollBehavior: 'smooth' }}
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()} 
+            className="relative w-screen h-screen max-w-full max-h-full flex items-center justify-center p-4 sm:p-8"
+            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+          >
+            <button 
+              onClick={closeModal} 
+              aria-label="Cerrar" 
+              className="absolute top-4 right-4 sm:top-6 sm:right-6 z-50 w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-gray-200 transition-colors flex-shrink-0"
+              style={{ cursor: 'pointer' }}
+            >
+              <span className="font-bold text-2xl text-black leading-none">×</span>
             </button>
-            <div className="rounded-md overflow-hidden bg-black/80 w-full">
+            <div className="w-full h-full max-w-5xl max-h-[90vh] bg-black/80 rounded-lg overflow-hidden flex items-center justify-center">
               <Swiper
                 modules={[Navigation]}
                 initialSlide={modalIndex}
-                spaceBetween={12}
+                spaceBetween={0}
                 slidesPerView={1}
                 navigation
                 loop={false}
-                className="w-full h-[80vh] flex items-center"
+                className="w-full h-full !flex !items-center !justify-center"
               >
                 {images.map((img, i) => (
-                  <SwiperSlide key={i} className="w-full h-full flex items-center justify-center">
-                    <img src={img} alt={`modal-${i}`} className="max-h-[80vh] max-w-full object-contain" />
+                  <SwiperSlide key={i} className="!w-full !h-full !flex !items-center !justify-center !flex-shrink-0">
+                    <img 
+                      src={img} 
+                      alt={`modal-${i}`} 
+                      className="w-full h-full object-contain" 
+                      style={{ maxWidth: '100%', maxHeight: '100%' }}
+                    />
                   </SwiperSlide>
                 ))}
               </Swiper>
@@ -142,8 +160,7 @@ const Analyses = () => {
 
       <div className="w-full flex">
         <motion.p variants={fadeIn('', '', 0.1, 1)} className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          A continuación verás una selección de mis análisis de datos. Cada caso incluye un conjunto de imágenes, una explicación del enfoque y las conclusiones principales. Más adelante podré ampliar cada caso (repositorio, informe y notebook).
-        </motion.p>
+          A continuación verás una selección de mis análisis de datos. Cada caso incluye un conjunto de imágenes, una explicación del enfoque y las conclusiones principales. </motion.p>
       </div>
 
       <motion.div variants={staggerContainer(0.15, 0.05)} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.15 }} className={`${styles.innerWidth} mx-auto flex flex-col`}>
