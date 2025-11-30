@@ -265,7 +265,7 @@ const projects = [
     ],
     image: 'https://img.youtube.com/vi/pIdJLXu1O_Y/hqdefault.jpg',
     repo: '',
-    demo: 'https://www.youtube.com/watch?v=pIdJLXu1O_Y',
+    demo: 'https://www.youtube.com/watch?v=0qxtEgYv11U',
   },
 
   {
