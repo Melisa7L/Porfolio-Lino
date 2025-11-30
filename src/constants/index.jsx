@@ -68,14 +68,14 @@ export const navLinks = [
     id: 'projects',
     title: 'Proyectos',
   },
-  {
-    id: 'aprendizaje',
-    title: 'Aprendizaje',
-  },
-  {
+    {
     id: 'analyses',
     title: 'Análisis',
   },
+  {
+    id: 'aprendizaje',
+    title: 'Aprendizaje',
+  }
 
 ];
 
