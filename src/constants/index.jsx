@@ -167,7 +167,7 @@ const experiences = [
     company_name: 'Ministerio Publico de la Acusacion',
     icon: mpa, 
     iconBg: '#F5A623',
-    date: '2024 - Presente',
+    date: '2024 - 2025',
     description: '.',
   },
   {
