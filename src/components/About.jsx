@@ -37,11 +37,11 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
   className="mt-4 text-jet text-[18px] max-w-3xl leading-[30px]">
-Soy Licenciada en Sistemas, apasionada por la tecnología y el aprendizaje continuo. Actualmente trabajo en el Ministerio Público de la Acusación, donde participo en el análisis y diseño de sistemas, el manejo de datos sensibles y la capacitación a usuarios, contribuyendo a mejorar la eficiencia y la experiencia de uso.
+Soy Licenciada en Sistemas, apasionada por la tecnología y el aprendizaje continuo. Actualmente me desempeño como Strategic Account Manager en Colektia, donde gestiono carteras financieras de alto impacto. En este rol, combino mi formación técnica con el análisis estratégico de datos para optimizar el rendimiento de las cuentas, asegurando la eficiencia operativa y la satisfacción del cliente.
 
-Cuento con experiencia en inteligencia de negocios, análisis de datos, Big Data y bases de datos, aplicando herramientas como Python, SQL, React, Docker y AWS. Durante mi práctica profesional en el Gobierno de Jujuy desarrollé un proyecto con Django y Machine Learning, que incluyó el despliegue en producción en AWS.
+Cuento con sólida experiencia en Inteligencia de Negocios, Análisis de Datos, Big Data y bases de datos, aplicando herramientas como Python, SQL, React, Docker y AWS. Durante mi trayectoria, he desarrollado proyectos innovadores, incluyendo un clasificador de noticias con Machine Learning y el despliegue de soluciones en producción utilizando Django.
 
-Me caracterizo por ser organizada, adaptable y orientada a los desafíos. Mi motivación es seguir creciendo y aportar valor en proyectos innovadores, especialmente en el área de análisis de datos y machine learning.
+Me caracterizo por ser organizada, adaptable y orientada a los desafíos. Mi motivación es seguir aportando valor en entornos dinámicos, uniendo la visión estratégica de negocios con el poder del análisis de datos y la inteligencia artificial.
       </motion.p>
 
       <div className="mt-10 h-px w-full bg-gradient-to-r from-transparent via-teal-300/50 to-transparent" />
