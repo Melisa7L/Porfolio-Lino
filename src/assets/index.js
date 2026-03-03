@@ -26,6 +26,8 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 import mpa from './icons/justice_icon_187939.png';
+import colektia from './icons/colektia.png';
+
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -100,6 +102,7 @@ export {
   menu,
   resume,
   send,
+  colektia,
   sendHover,
   css,
   docker,

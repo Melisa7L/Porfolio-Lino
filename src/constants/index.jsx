@@ -45,6 +45,7 @@ import {
   analisis_datos,
   ingles,
   contable,
+  colektia,
   access,
   desarrollo,
   reparacion,
@@ -151,8 +152,18 @@ const technologies = [
 ];
 
 const experiences = [
+ {
+    title: 'Trabajo - Strategic Account Manager',
+    company_name: 'Colektia',
+    icon: colektia, 
+    iconBg: '#4A90E2',
+    date: '2025 - Presente',
+    description: '.',
+  },
+
+
   {
-    title: 'Trabajo - Ministerio Publico de la Acusacion de Jujuy',
+    title: 'Trabajo - Analista de Datos',
     company_name: 'Ministerio Publico de la Acusacion',
     icon: mpa, 
     iconBg: '#F5A623',
